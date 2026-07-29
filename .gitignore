@@ -1,0 +1,47 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- IntelliJ / IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---- Java: Gradle ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- Java: Maven ----
+target/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ---- Node / frontend ----
+node_modules/
+dist/
+.vite/
+*.local
+
+# ---- Env & secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+application-local.properties
+application-local.yml
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Local DB / data dumps ----
+*.sqlite
+*.sqlite3
+pgdata/
+
+# NOTE: decide before committing whether fetched cover images live in-repo
+# (optimized thumbnails) or in external object storage. See README.
